@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="https://formsubmit.co/halimatikoglu@gmail.com" method="POST">
+        <div>
+            <label for="name">İsim</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="last_name">Soyisim</label>
+            <input type="text" id="last_name" name="last_name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">Yaş</label>
+            <input type="number" id="age" name="age" min="15" max="70">
+        </div>
+        <br>
+        <div>
+            <label for="message">Mesajınız</label>
+            <br>
+            <textarea name="message" id="message" cols="" rows="4"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="range">Sitemizi ne kadar beğendiniz?</label>
+            <br>
+            <input type="range" id="range" name="Website-rating">
+        </div>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>
